@@ -16,5 +16,6 @@ Plug 'nvim-telescope/telescope.nvim'
 
 call plug#end()
 
+lua require("juan-abr")
 
 let mapleader = " "

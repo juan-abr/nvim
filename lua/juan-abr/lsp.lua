@@ -1,3 +1,5 @@
+require'lspconfig'.clangd.setup{}
+
 -- for .NET Framework
 local pid = vim.fn.getpid()
 local omnisharp_bin = "/home/juana/.cache/omnisharp-vim/omnisharp-roslyn/run"
