@@ -1,3 +1,7 @@
+" Ignore Files
+set wildignore+=*.pyc
+set wildignore+=*_build/*
+
 call plug#begin('~/.vim/plugged')
 
 " lsp plugins
